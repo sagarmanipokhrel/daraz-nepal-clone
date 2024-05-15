@@ -7,7 +7,6 @@ body{
     background-color: aqua;
 }
 
-
 .listed-items{
     height: 25px;
     width: 100%;
@@ -16,12 +15,40 @@ body{
     justify-content:space-evenly;
     overflow: hidden;
     color: white;
-    gap: 5vw;
 
 }
  .listed-items li{
     list-style-type: none;
 }
+
+.listed-items i{
+    display: none;
+}
+
+
+@media (max-width:800px){
+.listed-items li{
+    display: none;
+}
+
+.listed-items i{
+    display: block;
+    padding-right: 10px;
+    padding-top: 4px;
+}
+
+.listed-items{
+    justify-content: end;
+}
+
+.search-box{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+}
+
+
+
 .listed-items li:hover {
     color: rgba(231, 217, 217, 0.707);
 }
@@ -32,19 +59,31 @@ body{
 }
 .nav{
     height: 66px;
-    width: 100%;
+    width: calc(100% - 10px);
     background-color: orangered;
     display: flex;
     justify-content: space-evenly;
+    padding: 5px;
 }
 .daraz-logo{
-    background-color: black;
     height: 48px;
     width: 120px;
     overflow: hidden;
+    
 }
 
 .daraz-logo img{
     height: auto;
     width: 100%;
+}
+
+.search-box{
+    height: 38px;
+    width: 40em;
+    border-radius: 10px;
+    border-left: 10px solid white;
+    background-color: white;
+}
+.search-box:hover{
+    border-left: 10px solid white;
 }
