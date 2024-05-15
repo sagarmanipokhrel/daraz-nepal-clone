@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+}
+
+
+.listed-items{
+    height: 25px;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    justify-content:space-evenly;
+    overflow: hidden;
+    color: white;
+    gap: 5vw;
+
+}
+ .listed-items li{
+    list-style-type: none;
+}
+.listed-items li:hover {
+    color: rgba(231, 217, 217, 0.707);
+}
+#li-last{
+    background-color: rgba(0, 0, 0, 0.429);
+    padding: 2px;
+    border-radius: 10%;
+}
+.nav{
+    height: 66px;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-evenly;
+}
+.daraz-logo{
+    background-color: black;
+    height: 48px;
+    width: 120px;
+    overflow: hidden;
+}
+
+.daraz-logo img{
+    height: auto;
+    width: 100%;
+}
