@@ -65,8 +65,11 @@ body{
     height: 38px;
     width: 40em;
     border-radius: 10px;
+    border: none;
+    outline: none;
     border-left: 10px solid white;
     background-color: white;
+
 }
 .search-box:hover{
     border-left: 10px solid white;
@@ -97,14 +100,14 @@ body{
 }
 
 .dropdown-menu:hover{
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.792)
 }
 
-#select-opt{
+#select-opts{
     background-color: orangered;
     color: white;
     border: none;
+    outline: none;
     padding: 3px;
 }
 
