@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body{
@@ -25,30 +26,6 @@ body{
     display: none;
 }
 
-
-@media (max-width:800px){
-.listed-items li{
-    display: none;
-}
-
-.listed-items i{
-    display: block;
-    padding-right: 10px;
-    padding-top: 4px;
-}
-
-.listed-items{
-    justify-content: end;
-}
-
-.search-box{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-}
-
-
-
 .listed-items li:hover {
     color: rgba(231, 217, 217, 0.707);
 }
@@ -63,7 +40,10 @@ body{
     background-color: orangered;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding: 5px;
+    color: white;
+
 }
 .daraz-logo{
     height: 48px;
@@ -87,3 +67,48 @@ body{
 .search-box:hover{
     border-left: 10px solid white;
 }
+
+.boxes{
+    height: 40px;
+    width: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#select-opt{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 3px;
+}
+
+.cart i{
+    font-size: 30px;
+}
+
+@media (max-width:800px){
+    .listed-items li{
+        display: none;
+    }
+    
+    .listed-items i{
+        display: block;
+        padding-right: 10px;
+        padding-top: 4px;
+    }
+    
+    .listed-items{
+        justify-content: end;
+    }
+    
+    .search-box{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    }
+
