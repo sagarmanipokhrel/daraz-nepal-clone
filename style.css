@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: aqua;
+    background-color: #F5F5F5;
 }
 
 .listed-items{
@@ -129,7 +129,8 @@ body{
 .banner-menubox{
     height: 344px;
     width: 238px;
-    background-color: white;
+    border: black;
+    background-color: rgb(238, 238, 229);
     margin-left: 60px;
     border-radius: 10px;
     display: flex;
@@ -162,6 +163,145 @@ body{
     35%{background-image: url(IMAGES/image3.jpg);}
     75%{background-image: url(IMAGES/image4.jpg);}
 }
+
+
+.next-section{
+     background-color: #f4f5f3;
+     height: 100vh;
+     width: auto;
+}
+
+.flash-sale{
+    height: 375px;
+    width: 100%;
+    background-color: #eeefec;
+}
+
+.flash-sale h3{
+    font-size: 22px;
+    position: relative;
+    top: 3px;
+}
+
+.flash-sale-box{
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 22px;
+
+}
+
+.flash-sale-box a{
+    color: orange;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    right: 12%;
+}
+.shope-more button{
+    color: orange;
+    border: 2px solid orange;
+    height: 45px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: center;
+}
+.shope-more button:hover{
+    background-color: #19a3ca;
+}
+
+.flash-sale-box time{
+    color: orange;
+    position: relative;
+    right: 14%;
+}
+
+.item-box{
+    height: 322px;
+    width: 100%;
+    background-color: orange;
+    position: relative;
+    top: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item-box-p{
+    height: 285px;
+    width: 21%;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    top: 9px;
+    left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.item1{
+
+    background-image: url("IMAGES/item1.webp");
+    background-size: cover;
+
+}
+
+.item2{
+    background-image: url("IMAGES/item2.jpg");
+    background-size: cover;
+}
+
+.item3{
+    background-image: url("IMAGES/item3.png");
+    background-size: cover;
+}
+
+.item4{
+    background-image: url("IMAGES/item4.webp");
+    background-size: cover;
+}
+
+.inside-item-box-p{
+    height: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    position: relative;
+    top: 126px;
+    background-color: rgba(255, 234, 0, 0.726);
+    border-radius: 10px;
+}
+
+
+
+.inside-item-box-p span{
+    color: orange;
+}
+
+.inside-item-box-p a{
+    text-decoration: none;
+  
+}
+
+.item1 p {
+    color:orange;
+
+}
+
+.load-more{
+    height: 69px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.678);
+}
+
 
 
 @media (max-width:800px){
