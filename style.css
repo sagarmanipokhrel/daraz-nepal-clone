@@ -299,7 +299,21 @@ body{
 .load-more{
     height: 69px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.678);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.load-more button{
+    height: 50px;
+    width: 25%;
+    border: 2px solid orangered;
+    color: orangered;
+    border-radius: 10px;
+}
+
+.load-more button:hover{
+    border: 2px solid orange;
 }
 
 
