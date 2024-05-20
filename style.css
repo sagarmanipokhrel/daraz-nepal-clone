@@ -24,6 +24,8 @@ body{
 
 .listed-items i{
     display: none;
+    position: relative;
+    right: 10px;
 }
 
 .listed-items li:hover {
@@ -47,13 +49,17 @@ body{
     align-items: center;
     padding: 5px;
     color: white;
+    position: relative;
+    gap: 3px;
 
 }
 .daraz-logo{
     height: 48px;
     width: 120px;
     overflow: hidden;
-    
+    position: relative;
+    position: relative;
+    left:2px ;
 }
 
 .daraz-logo img{
@@ -97,6 +103,8 @@ body{
     font-size: 35px;
     display: none;
     margin-left: 10px;
+    position: relative;
+    right: 10px;
 }
 
 .dropdown-menu:hover{
@@ -167,12 +175,12 @@ body{
 
 .next-section{
      background-color: #f4f5f3;
-     height: 71vh;
-     width: auto;
+     height: 100%;
+     width: 100%;
 }
 
 .flash-sale{
-    height: 494px;
+    height: 94px;
     width: 100%;
     background-color: #eeefec;
 }
@@ -180,7 +188,8 @@ body{
 .flash-sale h3{
     font-size: 22px;
     position: relative;
-    top: 3px;
+    top: 5px;
+    left: 10px;
 }
 
 .flash-sale-box{
@@ -218,7 +227,6 @@ body{
 .flash-sale-box time{
     color: orange;
     position: relative;
-    right: 14%;
 }
 
 .item-box{
@@ -379,7 +387,7 @@ body{
     }
     
     .listed-items i{
-        display: block;
+        display: inline;
         padding-right: 10px;
         padding-top: 4px;
     }
@@ -404,5 +412,15 @@ body{
     .banner-menubox{
         display: none;
     }
+
+    .banner-slider{
+        height: 200px;
+        width: 90vw;
+        margin-left: 0px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 10px;
          
     }
+
+}
